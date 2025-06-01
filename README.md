@@ -1,37 +1,123 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Betting Style - Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betting Style</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
+    header, nav, footer {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #ffd700;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #ffd700;
+    }
+    .button {
+      display: inline-block;
+      background-color: #ffd700;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 20px;
+    }
+    img.logo {
+      max-height: 80px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Betting Style</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="faq.html">FAQ</a> |
-      <a href="#contatti">Contatti</a>
-    </nav>
-  </header>
 
-  <main>
-    <section>
-      <h2>Benvenuto su Betting Style</h2>
-      <p>Il tuo punto di riferimento per le migliori scommesse sportive.</p>
-    </section>
+<header>
+  <img src="logo.png" alt="Logo Betting Style" class="logo">
+  <h1>Betting Style</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">Chi siamo</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#affiliazione">Affiliazione</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+</header>
 
-    <section id="contatti">
-      <h2>Contatti</h2>
-      <p>Seguici su Telegram: <a href="https://t.me/bettings_style" target="_blank">@bettings_style</a></p>
-      <p>Scansiona il QR code per il modulo contatti:</p>
-      <img src="qr-code.png" alt="QR Code modulo contatti" width="200" />
-    </section>
-  </main>
+<section id="home">
+  <h2>Benvenuto su Betting Style</h2>
+  <p>Il punto di riferimento per tipster, appassionati di scommesse sportive e centri affiliati. Con Betting Style puoi finalmente monetizzare le tue conoscenze nel betting grazie alla nostra affiliazione con <strong>VSTART</strong>.</p>
+  <p>➡️ Unisciti alla nostra community su Telegram: <a href="https://t.me/bettings_style" class="button">@bettings_style</a></p>
+</section>
 
-  <footer>
-    <p>© 2025 Betting Style - Tutti i diritti riservati</p>
-  </footer>
+<section id="about">
+  <h2>Chi siamo</h2>
+  <p>Siamo professionisti con una passione per le scommesse ben fatte. Betting Style nasce per creare un ponte tra tipster, utenti e centri scommesse. La nostra missione: aiutarti a trasformare la passione in profitto, in modo semplice e professionale.</p>
+</section>
+
+<section id="servizi">
+  <h2>Tipster & Servizi</h2>
+  <ul>
+    <li>Collaborazioni per tipster professionisti</li>
+    <li>Strumenti per monetizzare pronostici</li>
+    <li>Pagine per centri scommesse locali</li>
+    <li>Codici tracciabili per affiliazione</li>
+  </ul>
+</section>
+
+<section id="affiliazione">
+  <h2>Affiliazione VSTART</h2>
+  <p>Diventa affiliato VSTART con Betting Style!</p>
+  <p>Registrati con il nostro codice per iniziare subito a guadagnare:</p>
+  <p><a href="https://www.vstart.it/signup?codAffiliato=VSBETTINGSSTYLE" class="button">Registrati ora</a></p>
+  <p><strong>Codice affiliato:</strong> VSBETTINGSSTYLE</p>
+  <ul>
+    <li>Nessun costo di apertura</li>
+    <li>Guadagni automatici per ogni affiliato</li>
+    <li>Ideale per tipster, influencer, centri scommesse</li>
+  </ul>
+</section>
+
+<section id="faq">
+  <h2>FAQ</h2>
+  <p><strong>Chi può affiliarsi a Betting Style?</strong><br>Chiunque abbia un pubblico interessato alle scommesse sportive.</p>
+  <p><strong>Quanto posso guadagnare?</strong><br>Dipende dall’attività degli affiliati. Più utenti attivi, più guadagni.</p>
+  <p><strong>Serve partita IVA?</strong><br>No, inizialmente non è richiesta.</p>
+  <p><strong>Dove ricevo supporto?</strong><br>Contattaci su Telegram: <a href="https://t.me/bettings_style">@bettings_style</a></p>
+</section>
+
+<section id="contatti">
+  <h2>Contatti</h2>
+  <p>Scrivici su Telegram scansionando il QR code qui sotto:</p>
+  <div class="qr">
+    <img src="qr-code.png" alt="QR Telegram" width="200">
+    <p><a href="https://t.me/bettings_style" class="button">@bettings_style</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Betting Style. Tutti i diritti riservati.</p>
+</footer>
+
 </body>
 </html>
