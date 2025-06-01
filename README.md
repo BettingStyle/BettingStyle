@@ -110,14 +110,11 @@
   <h2>Contatti</h2>
   <p>Scrivici su Telegram scansionando il QR code qui sotto:</p>
   <div class="qr">
-    <img src="qr-code.png" alt="QR Telegram" width="200">
+    <img src="qr-code.png" alt="QR Telegram" style="max-width: 200px; border-radius: 10px; box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);">
     <p><a href="https://t.me/bettings_style" class="button">@bettings_style</a></p>
   </div>
 </section>
 
-<footer>
-  <p>&copy; 2025 Betting Style. Tutti i diritti riservati.</p>
-</footer>
 
 </body>
 </html>
